@@ -11,7 +11,7 @@ import { setNewCategory } from './store/CategoryWasChosen/actions';
 import { setGoods } from './store/ChoseGoods/actions';
 
 const client = new ApolloClient({
-  uri: 'https://online-shop-layout.herokuapp.com/',
+  uri: 'https://graphql-online-shop.herokuapp.com/',
   cache: new InMemoryCache()
 });
 
